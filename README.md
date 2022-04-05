@@ -19,10 +19,10 @@
 - **Step 2:** Execute Google colab step to train the model for entity recognition (It currently finds entity like VULNERABILITY and OPERATING_SYSTEM)
 - **Step 3:** After that clone spacy's based project and excute commands as per colab to train relation extraction model (It currently finds HAS_VULNERABILITY relation)
 - **Step 4:** Last part of google colab is to feed the data to Neo4j using queries for visualization
-      - In order to do this step one has to first create an account over here [https://sandbox.neo4j.com/?usecase=blank-sandbox]
-      - Create a new project, this will give host, username and credential to login to this neo4j project
-      - In google colab notebook, put these temporary credentials to run it
-      Note: Neo4j sandbox gets expired within 3 days. Hence, every time we need to create new instance of project if we want to run it
+1. In order to do this step one has to first create an account over here [https://sandbox.neo4j.com/?usecase=blank-sandbox]
+2. Create a new project, this will give host, username and credential to login to this neo4j project
+3. In google colab notebook, put these temporary credentials to run it
+4. Note: Neo4j sandbox gets expired within 3 days. Hence, every time we need to create new instance of project if we want to run it
 
 - (**Note:** In general provided google colab notebook contains all the step. However, it took us couple of hours[approx. 4-5 hours] to train the model hence we have also placed screenshot of our previous successful run into the output folder for reference)
  
