@@ -17,7 +17,7 @@
 ## Execution Steps
 - **Step 1:** Create a folder on GDrive and place the converted spacy files over there (Colab contains this step, but in order to skip converting spacy files it's been placed over there, as it might take time)
 - **Step 2:** Execute Google colab step to train the model for entity recognition (It currently finds entity like VULNERABILITY and OPERATING_SYSTEM)
-- **Step 3:** After that clone spacy's based project and excute commands as per colab to train relation extraction model (It currently finds HAS_VULNERABILITY relation)
+- **Step 3:** After that clone spacy's based project and excute commands as per colab to train relation extraction model (It currently finds HAS_VULNERABILITY relation). Also once clone command is ran given in the notebook, then inside rel_component folder, which will create at runtime, create another folder called 'data' and place all 3 spacy files and then run remaining command
 - **Step 4:** Last part of google colab is to feed the data to Neo4j using queries for visualization
 1. In order to do this step one has to first create an account over here [https://sandbox.neo4j.com/?usecase=blank-sandbox]
 2. Create a new project, this will give host, username and credential to login to this neo4j project
